@@ -24,7 +24,7 @@ public class Main {
         do {
             System.out.println("Qual o estado inicial");
             initialState = scanner.next();
-        } while (initialState.length() < 210);
+        } while (initialState.length() != 210);
 
         problem = new Problem(initialState);
 
