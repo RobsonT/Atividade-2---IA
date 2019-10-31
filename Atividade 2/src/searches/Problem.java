@@ -2,21 +2,26 @@ package searches;
 
 public class Problem {
 
+    //Recebendo string contendo o estado inicial do problema
     String initialState;
-    public Problem(String initialState) {
+    int nNursey;
+
+    public Problem(String initialState, int nNursey) {
         this.initialState = initialState;
+        this.nNursey = nNursey;
     }
 
-    public void solve(int searchType) {
+    //chamada da busca escolhida pelo usuario
+    public void solve(int searchType, int nNursey) {
         switch (searchType) {
             case 1:
-                Search.hillClimbing(initialState);
+                HillClimbing.hillClimbing(initialState, nNursey);
                 break;
             case 2:
-                Search.hillClimbingSteepestAscent(initialState);
+                SteepestAscentHillClimbing.hillClimbingSteepestAscent(initialState, nNursey);
                 break;
             case 3:
-                Search.bestFirst(initialState);
+                BestFirst.bestFirst(initialState, nNursey);
                 break;
             default:
                 System.out.println("Tipo de busca não encontrada");

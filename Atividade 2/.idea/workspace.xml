@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69d9ee7b-556b-4dab-8aed-ef49cad2fe39" name="Default Changelist" comment="subida de encosta">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/searches/BestFirst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/searches/HillClimbing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/searches/SearchUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/searches/SteepestAscentHillClimbing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Atividade 2/searches/Search.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Atividade 2/searches/Search.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Atividade 2/searches/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Atividade 2/searches/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Atividade 2/searches/Problem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Atividade 2/searches/Problem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Atividade 2/searches/Search.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/searches/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/searches/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/searches/Problem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/searches/Problem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/searches/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/searches/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/searches/Search.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +55,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -93,7 +102,9 @@
       <workItem from="1572279037618" duration="1879000" />
       <workItem from="1572284359567" duration="13559000" />
       <workItem from="1572462567326" duration="2748000" />
-      <workItem from="1572469162130" duration="9239000" />
+      <workItem from="1572469162130" duration="12076000" />
+      <workItem from="1572517851272" duration="1577000" />
+      <workItem from="1572535003045" duration="3897000" />
     </task>
     <servers />
   </component>
