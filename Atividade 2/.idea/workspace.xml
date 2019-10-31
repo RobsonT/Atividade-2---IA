@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69d9ee7b-556b-4dab-8aed-ef49cad2fe39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/Atividade-2---IA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="69d9ee7b-556b-4dab-8aed-ef49cad2fe39" name="Default Changelist" comment="subida de encosta">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/searches/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/searches/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Atividade 2/searches/Search.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Atividade 2/searches/Search.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/searches/Problem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/searches/Problem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/searches/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/searches/Search.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,7 +91,9 @@
       <option name="presentableId" value="Default" />
       <updated>1572279030611</updated>
       <workItem from="1572279037618" duration="1879000" />
-      <workItem from="1572284359567" duration="10998000" />
+      <workItem from="1572284359567" duration="13559000" />
+      <workItem from="1572462567326" duration="2748000" />
+      <workItem from="1572469162130" duration="9239000" />
     </task>
     <servers />
   </component>
@@ -105,11 +105,17 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="subida de encosta" />
+    <option name="LAST_COMMIT_MESSAGE" value="subida de encosta" />
   </component>
   <component name="masterDetails">
     <states>

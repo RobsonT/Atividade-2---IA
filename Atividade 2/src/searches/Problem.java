@@ -13,7 +13,7 @@ public class Problem {
                 Search.hillClimbing(initialState);
                 break;
             case 2:
-                Search.hillClimbingHighestScore(initialState);
+                Search.hillClimbingSteepestAscent(initialState);
                 break;
             case 3:
                 Search.bestFirst(initialState);
