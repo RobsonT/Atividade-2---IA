@@ -37,21 +37,17 @@ public class BestFirst {
     //implementacao da busca Melhor Primeiro
     public static void bestFirst(String initialState, int nNursey) {
         String state = initialState;
-        String bestState;
+        String bestState = state;;
         generated = new LinkedList<>();
         redundance = new HashSet<>();
         generated.add(initialState);
         while (!generated.isEmpty()) {
-            bestState = state;
-            state = generated.remove();
+            if(state.equals(initialState))
+                generated.remove();
+
             System.out.println("Estado visitado:");
             SearchUtils.printState(state, nNursey);
             System.out.println("Avaliação: " + SearchUtils.evaluate(state, nNursey));
-            if (SearchUtils.evaluate(state, nNursey) >= SearchUtils.evaluate(bestState, nNursey) && state != initialState) {
-                System.out.println("Solução encontrada:");
-                SearchUtils.printState(bestState, nNursey);
-                return;
-            }
 
             generateStateBestFirst(state, nNursey);
 
@@ -68,7 +64,14 @@ public class BestFirst {
                 generated.add(gen);
             }
 
+            state = generated.remove();
 
+            if (SearchUtils.evaluate(state, nNursey) < SearchUtils.evaluate(bestState, nNursey)) {
+                bestState = state;
+            }else{
+                System.out.println("Solução encontrada!");
+                return;
+            }
         }
         System.out.println("Resultado não encontrado");
     }

@@ -79,7 +79,6 @@ public class SearchUtils {
         //um contador para a quantidade de enfermeiros
         int countViolations = 0;
         int countNurse;
-
         //for que verifica quantidade de turno para cada enfermeiro
         for (int i = 0; i < nNursey * 21; i += 21) {
             countNurse = 0;
@@ -132,12 +131,12 @@ public class SearchUtils {
             countH = 0;
             for (int j = 0; j < 3; j++) {
                 count = 0;
-                for (int k = i + j; k < 21; k += 3) {
-                    if (state.charAt(j) == '1') {
+                for (int k = i + j; k < i + j + 21; k += 3) {
+                    if (state.charAt(k) == '1') {
                         count++;
                     }
                 }
-                if (count < 7) {
+                if (count < 5) {
                     countH++;
                 }
             }

@@ -1,5 +1,7 @@
 package searches;
 
+import java.util.Map;
+
 public class Problem {
 
     //Recebendo string contendo o estado inicial do problema
@@ -12,19 +14,19 @@ public class Problem {
     }
 
     //chamada da busca escolhida pelo usuario
-    public void solve(int searchType, int nNursey) {
+    public Map<String, Integer> solve(int searchType, int nNursey) {
         switch (searchType) {
             case 1:
                 HillClimbing.hillClimbing(initialState, nNursey);
-                break;
+                return null;
             case 2:
-                SteepestAscentHillClimbing.hillClimbingSteepestAscent(initialState, nNursey);
-                break;
+                return SteepestAscentHillClimbing.hillClimbingSteepestAscent(initialState, nNursey);
             case 3:
                 BestFirst.bestFirst(initialState, nNursey);
-                break;
+                return null;
             default:
                 System.out.println("Tipo de busca não encontrada");
+                return null;
         }
     }
 }

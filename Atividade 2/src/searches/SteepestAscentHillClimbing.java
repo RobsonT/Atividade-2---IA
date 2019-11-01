@@ -37,13 +37,11 @@ public class SteepestAscentHillClimbing {
             }
             count++;
         }
-
-        System.out.println("Avaliação: " + states.get(aux));
         return aux;
     }
 
     //implementacao da busca Subida de Enconsta pelo Maior Aclive
-    public static void hillClimbingSteepestAscent(String initialState, int nNursey) {
+    public static Map<String, Integer> hillClimbingSteepestAscent(String initialState, int nNursey) {
         String state = initialState;
         String stateChild;
 
@@ -51,7 +49,9 @@ public class SteepestAscentHillClimbing {
             stateChild = generateStateSteepestAscent(state, nNursey);
             if (state.equals(stateChild)) {
                 System.out.println("Solução encontrada");
-                return;
+                HashMap<String, Integer> best = new HashMap<>();
+                best.put(state, SearchUtils.evaluate(state, nNursey));
+                return best;
             }
             state = stateChild;
         }

@@ -1,7 +1,6 @@
 package searches;
 
 import java.util.HashMap;
-import java.util.LinkedList;
 import java.util.Map;
 
 public class HillClimbing {
@@ -39,12 +38,11 @@ public class HillClimbing {
             }
             count++;
         }
-        System.out.println("Avaliação: " + states.get(aux));
         return aux;
     }
 
     //implementacao da busca Subida de Enconsta
-    public static void hillClimbing(String initialState,int nNursey) {
+    public static void hillClimbing(String initialState, int nNursey) {
         String state = initialState;
         String stateChild;
 
