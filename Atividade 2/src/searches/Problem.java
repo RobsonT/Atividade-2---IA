@@ -1,13 +1,13 @@
 package searches;
 
 import java.util.Map;
-
+// O problema é representado por uma string de bits, cujo tamanho é o número de enfermeiros vezes o número de turnos
+// A operação para geração de estado é altera um bit de 0 para 1 ou de 1 para 0
 public class Problem {
 
-    //Recebendo string contendo o estado inicial do problema
     String initialState;
     int nNursey;
-
+//recebe o estado inicial e o número de enfermeiros
     public Problem(String initialState, int nNursey) {
         this.initialState = initialState;
         this.nNursey = nNursey;

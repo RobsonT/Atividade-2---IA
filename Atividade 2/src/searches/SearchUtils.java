@@ -5,7 +5,7 @@ import java.util.*;
 public class SearchUtils {
 
     //implementacao do metodo quicksort para ser utilizado na busca BestFirst
-    //ele ordena um vetor de String passado como referencia
+    //ele ordena um vetor de String passado como referencia pelo seu valor de avaliação
     public static void quickSort(String[] vetor, int inicio, int fim, int nNursey) {
         if (inicio < fim) {
             int posicaoPivo = separar(vetor, inicio, fim, nNursey);
@@ -149,6 +149,7 @@ public class SearchUtils {
 
 
     //retorna um int que representa o quanto o estado é bom, ou seja, o quanto ele sastifaz os requisitos
+//    Quanto menor o valor, menos violações estão ocorrendo
     public static int evaluate(String state, int nNursey) {
         return r1Violation(state, nNursey) + r2Violation(state, nNursey) + r3Violation(state, nNursey) + r4Violation(state, nNursey);
     }
